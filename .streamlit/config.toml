@@ -1,0 +1,25 @@
+# [IA] Google Antigravity / Streamlit Skills – Configuração de identidade visual e paleta do tema
+# Identidade visual inspirada nos clubes de Lionel Messi no dataset:
+# FC Barcelona (Blaugrana: Azul #004D98, Grená #A50044, Ouro #D49B00) e
+# Paris Saint-Germain (Azul-marinho #0B1F3A, Vermelho #C8102E).
+# Paleta acessível (WCAG AA) e colorblind-safe (par divergente Azul ↔ Grená).
+
+[theme]
+base = "light"
+primaryColor = "#A50044"              # Grená Blaugrana: botões, sliders, abas ativas (contraste > 6.8:1 com branco)
+backgroundColor = "#F8FAFC"           # Fundo principal claro neutro-frio para destacar azul e grená
+secondaryBackgroundColor = "#EEF2F7"  # Fundo da sidebar e cartões secundários
+textColor = "#0B1F3A"                 # Azul-marinho profundo (PSG/Barça) para máxima legibilidade (15.8:1)
+borderColor = "#D5DFEC"               # Bordas sutis de containers e métricas
+linkColor = "#004D98"                 # Azul Blaugrana oficial
+
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+headingFont = "Outfit:https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&display=swap"
+baseRadius = "0.6rem"
+showWidgetBorder = true
+showSidebarBorder = true
+paddingTop = "0.5rem"
+
+chartCategoricalColors = ["#004D98", "#A50044", "#D49B00", "#0B1F3A", "#C8102E", "#3B82F6", "#D85A7F"]
+chartSequentialColors = ["#EEF2F7", "#D0E0F2", "#A6C5E8", "#78A7DE", "#4B88D1", "#1E6AC0", "#004D98", "#003B75", "#0B294E", "#0B1F3A"]
+chartDivergingColors = ["#004D98", "#2B6CB0", "#6396CE", "#A3C2E6", "#E6EEF8", "#F9E8EE", "#E3A6BC", "#C95B84", "#A50044", "#70002E"]
