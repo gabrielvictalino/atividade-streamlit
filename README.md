@@ -111,3 +111,7 @@ O uso de IA deve ser declarado conforme a seção abaixo.
 ## Pasta `prompts/`
 
 A pasta [prompts/](prompts/) guarda o template de prompt para transformar o rascunho de layout em esqueleto de código e a **Declaração de Uso de IA** exigida pelo Plano de Ensino. Veja [prompts/README.md](prompts/README.md).
+
+## deploy
+
+https://atividade-app-vis7xnax7kqe3f77b3cg9r.streamlit.app/
